@@ -2,7 +2,7 @@ require 'rubygems'
 require 'mechanize'
 
 $agent = Mechanize.new
-@my_blog_url = "uptake.co" # Do not use http://www.
+@my_blog_url = "example.com" # Do not use http://www.
 
 def valid_url?
   $agent.get("http://#{@my_blog_url}").search(".svbtle").count == 1
