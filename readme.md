@@ -9,5 +9,7 @@ To use the archiver:
 - Run `ruby svbtle_archiver.rb`
 - The archive file will be created in the same directory as you save the archive file.
 
-Coming soon: 
+TODO: 
 - A web interface
+
+*Note: this may be broken with Dustin's recent changes to the Svbtle blog layout. May need repairing.*
